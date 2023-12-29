@@ -1,0 +1,214 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background:#e8d9d9;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999999;
+
+}
+
+.log {
+    color: #000405;
+    font-weight: 900;
+}
+
+.pages a {
+    color: #000405;
+    font-size: 20px;
+    font-weight: 900;
+}
+.ico:hover{
+    color: #ef85e8;
+}
+
+i {
+    color: #83764F;
+    font-size: 20px;
+
+    padding: 13px;
+}
+
+.section1{
+    background-image: url('../img/overlay-bg.jpg')   ;
+    background-size: cover;
+}
+
+/*Slider*/
+.slider{
+    background-color: #e8d9d9;
+}
+.C1 {
+    background-color: #F6FFDE;
+  
+}
+
+h1 {
+    color: #070707;
+}
+
+p {
+    color: rgb(6, 6, 6);
+  
+}
+.imggg{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+
+
+
+
+/*Portfolio*/
+
+.section3{
+    background-color: #e8d9d9;
+}
+.Image {
+    position: relative;
+}
+
+.Layer-text {
+    position: absolute;
+    padding-top: 5px;
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: #99A98F;
+
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Image:hover .Layer-text {
+    display: flex;
+
+}
+
+.BB {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/*Categorey*/
+.Categorey{
+    background-color: #e8d9d9;
+
+}
+.C1{
+    background-color: #f8f6f6;
+
+}
+.Bttn {
+    background-color: #c1b8b8;
+    border: #967e95;
+   
+}
+
+.Bttn.active {
+    background-color: #c98fc5;
+    
+}
+
+.Bttn:hover {
+    background-color: #7b777b;
+    color: black;
+}
+
+h5 {
+    color: #f0a5f8;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .imgg{width: 300px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+height: 300px;}
+
+/* Footer*/
+
+footer {
+    padding: 2px;
+    background: #ac8db0;
+}
+
+span {
+    cursor: pointer;
+}
+
+h2 {
+    color: #080808;
+}
+
+.links a,
+.links {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+
+.links a:hover {
+    color: #eadbea;
+}
+
+.links:hover {
+    color: #eadbea;
+    
+}
+i{
+    color: #080808;
+
+}
+i:hover{
+    color:#eadbea ;
+}
+.Inf {
+    font-size: 19px;
+}
+
+.mo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+/*Filterrrrrrrrrrrrrrr*/
+
+.filterDiv {
+
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}

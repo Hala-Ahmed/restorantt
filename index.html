@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- <link rel="stylesheet" href="Css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Shantell+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="icon" type="images/x-icon" href="img/logo.png" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light text-white">
+        <div class="container">
+            <a class="navbar-brand log" href="index.html"> <img src="img/logo.png" class="img-fluid border-rad " width="40">
+                JavaScript </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-around w-100">
+
+                    <li class="nav-item pages">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pages">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pages">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fs-3 ico fa-cart-arrow-down"><span id="myCart" class="m-1 text-black"></span></i>
+                        
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <span id="top"></span>
+
+
+
+
+ <!-- section1 start -->
+ <section class="section1">
+    <div class="layer bg-black bg-opacity-25">
+     <div class="container  d-flex justify-content-center align-items-center vh-100 text-center">
+       <div class="text-white">
+          <h1 class="display-2 fw-semibold">I am Hala Ahmed</h1>
+          <P class="fs-3 text-white">Web Devloper</P>
+   
+       </div>
+    </div>
+    </div>
+   </section>
+    <!-- section1 end -->
+
+
+
+    <!-- //slider -->
+    <section class="slider  bg-opacity-25 py-5">
+        <div class="container">
+          <div class="slider-area bg-white shadow p-5">
+            <h1 class="text-center fw-bold  text-black">This is our Meals</h1>
+                <p class="text-center fs-4  fw-bold text-black py-5">Part of the secret to success in life is to eat what you love and leave the wrestling food inside</p>
+                    <div class="products text-center justify-content-center p-3 d-flex align-items-center">
+      
+                      <i class="fa-solid ico fs-3 fa-fast-backward px-3" onclick="previous()"></i>
+                      <img id="img" class="imggg" src="img/sli1.jpg" alt="_blank" >
+        
+                      <i class="fa-solid ico fa-fast-forward fs-3 px-3" onclick="next()"></i>
+                  </div>
+      
+          </div>
+      
+        </div>
+      </section>
+
+
+    <!--Portfolio-->
+
+    <section class="section3 py-5">
+        <div class="container">
+          <div class="text1">
+            <h2 class="text-center text-black  fw-bold"> What is your favorite food :)</h2>
+            <p class="text-center fw-bold text-black fs-4 ">Healthy food depends on diversification of foods, as it works to meet the individual’s nutritional needs</p>
+          </div>
+        </div>
+      
+        <div class="portfolio py-3">
+          <div class="row g-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="Image">
+                  <img src="img/11.jpg" class="w-100 imgg" alt="">
+      
+                  <div class="Layer-text text-white">
+                      <span>Grape leaves</span>
+                      <h3>FOOD</h3>
+                  </div>
+              </div>
+          </div>
+      
+      
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="Image">
+                <img src="img/22.jpg" class="w-100 imgg" alt="">
+      
+                <div class="Layer-text text-white">
+                    <span>Shawarma</span>
+                    <h3>FOOD</h3>
+      
+                </div>
+            </div>
+        </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="Image">
+              <img src="img/33.jpg" class="w-100 imgg" alt="">
+      
+              <div class="Layer-text text-white">
+                  <span>Moussaka</span>
+                  <h3>FOOD</h3>
+      
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="Image">
+            <img src="img/44.jpg" class="w-100 imgg" alt="">
+      
+            <div class="Layer-text text-white">
+                <span>Koushari</span>
+                <h3>FOOD</h3>
+      
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="Image">
+            <img src="img/55.jpg" class="w-100 imgg" alt="">
+      
+            <div class="Layer-text text-white">
+                <span>trotters</span>
+                <h3>FOOD</h3>
+      
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="Image">
+            <img src="img/66.jpg" class="w-100 imgg" alt="">
+      
+            <div class="Layer-text text-white">
+              <span>Maqlouba</span>
+              <h3>FOOD</h3>
+      
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="Image">
+            <img src="img/77.jpg" class="w-100 imgg" alt="">
+      
+            <div class="Layer-text text-white">
+                <span>Fattah</span>
+                <h3>FOOD</h3>
+      
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="Image">
+            <img src="img/88.jpg" class="w-100 imgg" alt="">
+      
+            <div class="Layer-text text-white">
+                <span>pastta</span>
+                <h3>FOOD</h3>
+      
+            </div>
+        </div>
+      </div>
+      
+          </div>
+        </div>
+       </section>
+       <!-- section3 end -->
+     
+
+
+
+    <!-- Categorey -->
+    <section class="Categorey pb-5">
+        <div class="container C1 p-5 test mb-5">
+            <div class="text-center mb-5">
+                <h2 class="py-5 fw-bold text-black">Categorey of Meals :)</h2>
+                <p class="fs-4 fw-bold">Choose what you wannna and add it to card...</p>
+                <div id="myBtnContainer">
+                    <a class="btn btn-primary Bttn mt-2 active" onclick="filterSelection('all')">All</a>
+                    <a class="btn btn-primary Bttn mt-2" onclick="filterSelection('Lap')">Pizza</a>
+                    <a class="btn btn-primary Bttn mt-2" onclick="filterSelection('Camra')">pasta</a>
+                    <a class="btn btn-primary  Bttn mt-2" onclick="filterSelection('Game')">Meat</a>
+                    <a class="btn btn-primary Bttn mt-2" onclick="filterSelection('Pods')">Chickens</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Lap">
+                    <img src="img/pizza1.jpg" class="card-img-top imgg  w-100 " alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">
+                            is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes,                         </p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Game">
+                    <img src="img/meat3.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Meat</h5>
+                        <p class="card-text">
+                            Meats such as chicken, pork, lamb and beef are all rich in protein. 
+                        </p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Pods">
+                    <img src="img/chiken3.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Chickens</h5>
+                        <p class="card-text">
+                          
+Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation</p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Camra">
+                    <img src="img/passta2.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">pasta</h5>
+                        <p class="card-text">
+                            pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shape  </p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Pods">
+                    <img src="img/chiken2.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Chickens</h5>
+                        <p class="card-text">
+                            
+Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation</p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Lap">
+                    <img src="img/pizza2.jpg" class="card-img-top imgg   " alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">
+                            is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes,    </p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Game">
+                    <img src="img/meat2.jpg" class="card-img-top imgg imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Meat</h5>
+                        <p class="card-text">
+                            Meats such as chicken, pork, lamb and beef are all rich in protein. 
+                        </p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Lap">
+                    <img src="img/pizza3.jpg" class="card-img-top imgg  " alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">
+                            is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, </p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Camra">
+                    <img src="img/passta3.jpg" class="card-img-top imgg  " alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title ">pasta</h5>
+                        <p class="card-text">
+                            pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shape  </p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Camra">
+                    <img src="img/passta1.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">pasta</h5>
+                        <p class="card-text">pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shape  </p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Game">
+                    <img src="img/meat1.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Meat</h5>
+                        <p class="card-text">
+
+                            Meats such as chicken, pork, lamb and beef are all rich in protein.</p>
+                        <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card col-sm-6 col-md-4 col-lg-3 me-5  mt-3 filterDiv Pods">
+                    <img src="img/chiken1.jpg" class="card-img-top imgg" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Chickens</h5>
+                        <p class="card-text">
+                            
+Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation</p>
+                            <button href="#" class="btn btn-outline-secondary" onclick="addingToCart()";>Add to Cart</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="">
+
+        <div className="footer">
+
+            <div class="container p-3">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-12">
+                        <h2 class="pb-1">Prince Restaurant</h2>
+                        <p class="text-dark  fw-bolder Inf">
+                            The Prince Restaurant cannot be ignored when we talk about the most amazing restaurants in Cairo.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12">
+                        <h2>About Us</h2>
+                        <div class="d-flex flex-column m-2 links">
+                            <a href="#"> Service</a>
+                            <a href="#"> Contact Us</a>
+                            <a href="#"> About Us</a>
+                            <a href="#"> Way of payment</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <h2>Help</h2>
+                        <div class="d-flex flex-column m-2 links">
+                            <a href="#"> Support</a>
+                            <a href="#"> Our License</a>
+                            <a href="#"> Blog</a>
+                            <a href="#"> What's new</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+
+                        <h2>Contact Us</h2>
+
+                        <span><i class="fa-solid fa-phone"></i></span> <span class="links">+46 123 456 789</span>
+                        <br>
+                        <span> <i class="fa-solid fa-envelope"></i> </span> <span class="links"> hello@Prince.com
+                        </span>
+                        <br>
+                        <span> <i class="fa-solid fa-location-pin"></i> </span> <span class="links"> Silictown, Great
+                            Count</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12 col-md-6 col-lg-12 ">
+                        <span><i class="fa-brands fs-2 fa-facebook" href="#"></i></span>
+                        <span> <i class="fa-brands fs-2 fa-facebook-messenger" href="#"></i> </span>
+                        <span> <i class="fa-brands fs-2 fa-twitter" href="#"></i> </span>
+                        <span> <i class="fa-brands fs-2 fa-whatsapp" href="#"></i> </span>
+
+                        <a href="#top" class="rounded-circle bg-secondary p-1 mo"> <i
+                                class="fa-solid fa-arrow-up text-black"></i></a>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="Js/home.js"></script>
+</body>
+
+</html>
